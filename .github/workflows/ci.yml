@@ -30,7 +30,7 @@ jobs:
         run: |
           unzip npm-packages.zip
           tar -xvzf rescript-11.1.3-rc.1-da88460.tgz
-          npm install packages/
+          npm install package/
 
       - name: First build
         continue-on-error: true

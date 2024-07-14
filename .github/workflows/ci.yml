@@ -32,14 +32,14 @@ jobs:
           tar -xvzf rescript-11.1.3-rc.1-da88460.tgz
           npm install package/
 
-      - name: First build
+      - name: Build
         continue-on-error: true
         run: ./node_modules/.bin/rescript build
 
-      - name: First build
+      - name: Build with warn-error
         continue-on-error: true
         run: ./node_modules/.bin/rescript build -warn-error +32
 
-      - name: Second build
+      - name: Build without warn-error
         continue-on-error: true
         run: ./node_modules/.bin/rescript build

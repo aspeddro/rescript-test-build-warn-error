@@ -1,0 +1,12 @@
+{
+  "name": "my-rescript-app",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "suffix": ".res.mjs"
+}

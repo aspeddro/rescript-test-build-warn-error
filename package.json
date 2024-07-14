@@ -1,0 +1,14 @@
+{
+  "name": "my-rescript-app",
+  "version": "0.0.0",
+  "scripts": {
+    "res:build": "rescript",
+    "res:clean": "rescript clean",
+    "res:dev": "rescript -w"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT"
+}
